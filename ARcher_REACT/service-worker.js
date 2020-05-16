@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/OctoLessons/precache-manifest.5694de2506ddc814fdb183187c6fc37f.js"
+  "/OctoLessons/ARcher_REACT/precache-manifest.ee3b3d0c3dfa918a61874488df42d478.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,6 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/OctoLessons/index.html"), {
-  
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/OctoLessons/ARcher_REACT/index.html"), {
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
